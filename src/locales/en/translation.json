@@ -1,0 +1,50 @@
+{
+    "badge": "Bachelor's Thesis",
+    "title": "Building a Knowledge Sharing Web Platform",
+    "shortDesc": "Creating a modern content platform (Medium analog). Publish your experience, tutorials, and case studies while interacting with experts worldwide.",
+    "ctaPrimary": "View Repository",
+    "ctaSecondary": "Read Documentation",
+    "keywordsTitle": "Core Technologies & Concepts:",
+    "keywords": [
+        "Blog Platform",
+        "Knowledge Sharing",
+        "WYSIWYG",
+        "React",
+        "Node.js"
+    ],
+    "goalTitle": "Research Goal",
+    "goalDesc": "To design and develop a scalable web platform providing user-friendly tools for creating, formatting, and distributing text content with social network elements.",
+    "tasksTitle": "Implementation Steps",
+    "tasksSubtitle": "Main tasks solved within the project scope",
+    "tasks": [
+        {
+            "title": "Market Analysis",
+            "desc": "Comparative analysis of existing platforms (Medium, Dev.to)."
+        },
+        {
+            "title": "DB Architecture",
+            "desc": "Database design for storing articles, tags, and comments."
+        },
+        {
+            "title": "Editor Integration",
+            "desc": "Fully-featured WYSIWYG editor for writing materials."
+        },
+        {
+            "title": "Smart Recommendations",
+            "desc": "Personalized recommendation system based on user interests."
+        },
+        {
+            "title": "UI/UX Design",
+            "desc": "Development of a responsive and accessible user interface."
+        }
+    ],
+    "expectedTitle": "Ready to Use Product",
+    "expectedDesc": "A functioning web application supporting author registration, rich-text publications, subscriptions, likes, and comments.",
+    "contactTitle": "Get in Touch",
+    "author": "Student: Olena Shchipina",
+    "email": "shipina.olena@gmail.com",
+    "repoText": "GitHub Project",
+    "university": "Лабораторна робота №2",
+    "languageLabel": "English language",
+    "languageCode": "EN"
+}
