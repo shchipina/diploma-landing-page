@@ -1,0 +1,9 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["src/main.tsx", "src/App.tsx"],
+  "out": "docs-build",
+  "name": "Medium Clone Landing API",
+  "readme": "README.md",
+  "excludePrivate": true,
+  "hideGenerator": true
+}

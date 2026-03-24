@@ -2,6 +2,31 @@ import { useTranslation } from 'react-i18next';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+/**
+ * Головний компонент додатку - лендінг сторінка бакалаврської роботи
+ * 
+ * Відображає повну структуру landing page з наступними секціями:
+ * - Header з навігацією та перемикачем мови
+ * - Hero секція з описом проєкту та CTA кнопками
+ * - Секція з ключовими технологіями
+ * - Сітка завдань проєкту (Feature Grid)
+ * - Секція очікуваних результатів
+ * - Footer з контактною інформацією
+ * 
+ * Використовує react-i18next для підтримки української та англійської мов.
+ * Всі текстові дані локалізовані та зберігаються в JSON файлах.
+ * 
+ * @component
+ * @example
+ * ```tsx
+ * import App from './App';
+ * 
+ * // В main.tsx або index.tsx
+ * <App />
+ * ```
+ * 
+ * @returns {JSX.Element} Повна структура лендінг сторінки
+ */
 function App() {
   const { t } = useTranslation();
 

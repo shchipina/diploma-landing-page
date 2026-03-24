@@ -1,6 +1,22 @@
 import { useTranslation } from 'react-i18next';
 import ToggleButton from './ToggleButton';
 
+/**
+ * Компонент Header - шапка сайту з логотипом та перемикачем мови
+ * 
+ * Відображає:
+ * - Логотип університету
+ * - Назву університету (локалізовану)
+ * - Кнопку перемикання мови (ToggleButton)
+ * 
+ * @component
+ * @example
+ * ```tsx
+ * <Header />
+ * ```
+ * 
+ * @returns {JSX.Element} Компонент шапки сайту
+ */
 const Header = () => {
     const { t } = useTranslation();
 

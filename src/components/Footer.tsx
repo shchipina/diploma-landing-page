@@ -1,5 +1,22 @@
 import { useTranslation } from 'react-i18next';
 
+/**
+ * Компонент Footer - підвал сайту з контактною інформацією
+ * 
+ * Відображає:
+ * - Контактну інформацію автора (ПІБ, email)
+ * - Посилання на GitHub репозиторій проекту
+ * 
+ * Використовує i18n для локалізації контенту.
+ * 
+ * @component
+ * @example
+ * ```tsx
+ * <Footer />
+ * ```
+ * 
+ * @returns {JSX.Element} Компонент футера з контактами
+ */
 const Footer = () => {
     const { t } = useTranslation();
 
